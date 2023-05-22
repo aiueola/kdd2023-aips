@@ -48,10 +48,10 @@ Once the code is finished executing, you can find the result (`estimation_{setti
 Please refer to `./conf` for the experimental configurations.
 
 ### Visualize the results
-To visualize the results, run the following commands.
+To visualize the results, run the following commands. Note that, make sure that the files are located in `logs/{setting}/estimation_{setting}.csv`.
 
 ```bash
-python src/visualize.py setting={data_size/slate_size/user_behavior_variation} setting.{additional_config}={value} ...
+python src/visualize.py setting={data_size/slate_size/user_behavior_variation}
 ```
 
 Then, you will find the three following figures (`{setting}_{mse/squared_bias/variance}.png`) in the `./figs/` directory. Lower value is better for the all the metrics.
