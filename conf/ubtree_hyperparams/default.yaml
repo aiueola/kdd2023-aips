@@ -1,0 +1,6 @@
+# @package _group_
+min_samples_leaf: 100
+max_depth: 5
+n_bootstrap: 10
+n_partition: 10
+noise_level: 0.3

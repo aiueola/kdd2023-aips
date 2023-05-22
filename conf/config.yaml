@@ -1,0 +1,10 @@
+defaults:
+  - ubtree_hyperparams: default
+  - setting: data_size
+
+hydra:
+  run:
+    dir: ./logs/${setting.experiment}/${hydra.job.override_dirname}
+  sweep:
+    dir: ./logs/${setting.experiment}/${hydra.job.override_dirname}
+    subdir: ./

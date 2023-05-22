@@ -1,0 +1,33 @@
+# @package _group_
+experiment: user_behavior_variation
+n_rounds: 8000
+n_unique_action: 3
+len_list: 8
+dim_context: 5
+reward_type: continuous
+reward_structure_type: context_dependent
+interaction_function: additive
+decay_function: inverse
+behavior_policy: linear
+evaluation_policy_beta: -2.0
+epsilon: 0.3
+is_factorizable: True
+user_behavior_weight_scaler: None
+user_behavior_interpolation_param:
+  - 0.0
+  - 0.2
+  - 0.4
+  - 0.6
+  - 0.8
+  - 1.0
+user_behavior_function: linear
+is_deterministic_user_behavior: False
+reward_std: 0.5
+reward_scale: 1.0
+interaction_scale: 8.0
+normalize_interaction: True
+start_random_state: 0
+n_random_state: 1000
+base_random_state: 12345
+target_param: user_behavior_interpolation_param
+evaluation: on_policy
