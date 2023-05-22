@@ -56,11 +56,11 @@ python src/visualize.py setting={data_size/slate_size/user_behavior_variation}
 
 Then, you will find the three following figures (`{setting}_{mse/squared_bias/variance}.png`) in the `./figs/` directory. Lower value is better for the all the metrics.
 
+<img src="./figs/label.png" width=50% margin-left=auto margin-right=auto display=block> 
+
 | experiment parameter                     |  MSE                                                           |  squared bias                                                 |    variance                                   |
 | :--------------------------------------: | :------------------------------------------------------------: | :-----------------------------------------:                   | :------------------------------------------------------------: |
 | varying data size (n)                    | <img src="./figs/data_size_mse.png">                           | <img src="./figs/data_size_squared_bias.png">                 | <img src="./figs/data_size_variance.png">                      |
 | varying length of ranking (K)            | <img src="./figs/slate_size_mse.png">                          | <img src="./figs/slate_size_squared_bias.png">                | <img src="./figs/slate_size_variance.png">                     |
 | varying user behavior (δ)                | <img src="./figs/user_behavior_variation_mse.png">             | <img src="./figs/user_behavior_variation_squared_bias.png">   | <img src="./figs/user_behavior_variation_variance.png">        |
-
-<img src="./figs/label.png"> 
 
