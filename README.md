@@ -15,6 +15,18 @@ This repository contains the code to replicate the synthetic experiment conducte
 
 </details>
 
+</details>
+
+If you find this code useful in your research then please site:
+```
+@inproceedings{kiyohara2023off,
+  author = {Kiyohara, Haruka and Uehara, Masatoshi and Narita, Yusuke and Shimizu, Nobuyuki and Yamamoto, Yasuo and Saito, Yuta},
+  title = {Off-Policy Evaluation of Ranking Policies under Diverse User Behavior},
+  booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages = {xxx--xxx},
+  year = {2023},
+}
+
 ### Dependencies
 This repository supports Python 3.7 or newer.
 
