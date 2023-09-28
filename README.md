@@ -26,6 +26,7 @@ If you find this code useful in your research then please site:
   pages = {1154--1163},
   year = {2023},
 }
+```
 
 ### Dependencies
 This repository supports Python 3.7 or newer.
