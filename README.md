@@ -4,7 +4,7 @@
 
 ### About
 
-This repository contains the code to replicate the synthetic experiment conducted in the paper "[Off-Policy Evaluation of Ranking Policies under Diverse User Behavior]()" by [Haruka Kiyohara](https://sites.google.com/view/harukakiyohara), [Masatoshi Uehara](https://www.masatoshiuehara.com/), Yusuke Narita, Nobuyuki Shimizu, Yasuo Yamamoto, and [Yuta Saito](https://usait0.com/en/), which has been accepted to [KDD2023](https://kdd.org/kdd2023/). [[paper]()] [[arXiv](https://arxiv.org/abs/2306.15098)] [[slides](https://speakerdeck.com/harukakiyohara_/adaptive-ope-for-ranking)]
+This repository contains the code to replicate the synthetic experiment conducted in the paper "[Off-Policy Evaluation of Ranking Policies under Diverse User Behavior](https://dl.acm.org/doi/abs/10.1145/3580305.3599447)" by [Haruka Kiyohara](https://sites.google.com/view/harukakiyohara), [Masatoshi Uehara](https://www.masatoshiuehara.com/), Yusuke Narita, Nobuyuki Shimizu, Yasuo Yamamoto, and [Yuta Saito](https://usait0.com/en/), which has been accepted to [KDD2023](https://kdd.org/kdd2023/). [[paper](https://dl.acm.org/doi/abs/10.1145/3580305.3599447)] [[arXiv](https://arxiv.org/abs/2306.15098)] [[slides](https://speakerdeck.com/harukakiyohara_/adaptive-ope-for-ranking)]
 
 <details>
 <summary><strong>Click here to show the abstract </strong></summary>
