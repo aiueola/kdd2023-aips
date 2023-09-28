@@ -23,7 +23,7 @@ If you find this code useful in your research then please site:
   author = {Kiyohara, Haruka and Uehara, Masatoshi and Narita, Yusuke and Shimizu, Nobuyuki and Yamamoto, Yasuo and Saito, Yuta},
   title = {Off-Policy Evaluation of Ranking Policies under Diverse User Behavior},
   booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-  pages = {xxx--xxx},
+  pages = {1154--1163},
   year = {2023},
 }
 
